@@ -36,7 +36,7 @@ services:
       - PMA_HOST=db
 
   web:
-    build: ./nginx
+    build: ./proxy
     restart: always
     ports:
       - "80:80"
